@@ -76,7 +76,7 @@ body {
   justify-content: space-around;
   align-items: center;
   transition: opacity 0.2s ease-in, top 0.2s ease-in, width 0.1s ease-in;
-  /*&::after {
+  /* &::after {
     content: "";
     width: 20px;
     height: 20px;
@@ -88,7 +88,7 @@ body {
     bottom: -8px;
     transform: rotate(45deg);
     z-index: 0;
-  }*/
+  } */
 }
 .wrapper .fac a {
   color: var(--icon-color);
@@ -167,3 +167,4 @@ body {
     transform: scale(1, 1);
   }
 }
+
