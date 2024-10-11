@@ -5,20 +5,54 @@
   <title>Card Generator</title>
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&display=swap" rel="stylesheet">
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<div class="wrapper">
-  <input type="checkbox" />
-  <div class="fab"></div>
-  <div class="fac">
-    <a href="#"><i class="fa-solid fa-sd-card" title="Add Background URL"></i></a>
-    <a href="#"><i class="fa-solid fa-heading" title="Add Card Title"></i></a>
-    <a href="#"><i class="fa-solid fa-align-left" title="Add Card Description"></i></a>
+
+
+  <ul> <!-- Title -->
+    <li>
+      <input type="checkbox" />
+      <div>C</div>
+    </li>
+    <li>
+      <input type="checkbox" />
+      <div>A</div>
+    </li>
+    <li>
+      <input type="checkbox" />
+      <div>R</div>
+    </li>
+    <li>
+      <input type="checkbox" />
+      <div>D</div>
+    </li>
+    <li>
+      <input type="checkbox" />
+      <div> </div>
+    </li>
+    <li>
+      <input type="checkbox" />
+      <div>G</div>
+    </li>
+    <li>
+      <input type="checkbox" />
+      <div>E</div>
+    </li>
+    <li>
+      <input type="checkbox" />
+      <div>N</div>
+    </li>
+  </ul>
+
+
+  <div class="container">
+    <input type="text" id="bgImageUrl" placeholder="Background Image URL" />
+    <input type="text" id="cardTitle" placeholder="Card Title" />
+    <textarea placeholder="Card Description"></textarea>
+    <button onclick="/* placehold */">Generate Card</button>
   </div>
-</div>
-<!-- partial -->
-  
 </body>
 </html>
