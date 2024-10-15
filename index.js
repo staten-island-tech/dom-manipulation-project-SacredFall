@@ -9,7 +9,7 @@ const DOMselectors = {
 function run() {
   DOMselectors.button.addEventListener("click", (event) => {
     event.preventDefault();
-    console.log("heil");
+    console.log("Executed!");
     addcard();
   });
 }
