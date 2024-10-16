@@ -27,6 +27,7 @@ body {
   width: 100%;
   height: 100%;
 }
+
 /*style="height: 300px; overflow-y: auto; position: relative;" */
 .card-wrapper{
   display: flex;
@@ -39,6 +40,19 @@ body {
   position: relative;
 }
 
+form{
+  margin-top: 30%;
+}
+
+.glitch-container {
+  top: 5%;
+  position: absolute;
+  color: var(--color);
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  color: #e8e6e3;
+}
 
 
 /*card*/
@@ -82,11 +96,7 @@ body {
   animation: slideIn 1s ease forwards;
 }
 
-form{
-  position: absolute;
-  top:20%;
 
-}
 
 
 @keyframes slideIn {
@@ -258,15 +268,7 @@ button:focus {
 
 /* Glitch effect I stole */
 
-.glitch-container {
-  top: 5%;
-  position: absolute;
-  color: var(--color);
-  font-size: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  color: #e8e6e3;
-}
+
 
 .stack {
   display: grid;
