@@ -24,4 +24,19 @@ function addcard() {
   );
 }
 
+function clearInputFields() {
+  // clear the input fields here
+}
+
+const deleteAllCardsButton = document.getElementById("delete-all-cards");
+deleteAllCardsButton.addEventListener("click", (event) => {
+  event.preventDefault();
+  deleteAllCards();
+});
+
+function deleteAllCards() {
+  // Remove all card elements from the container
+  DOMselectors.container.innerHTML = "";
+}
+
 run();

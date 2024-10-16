@@ -17,6 +17,23 @@ body {
 
 
 
+.button-container {
+  display: flex;
+  align-items: center;
+}
+
+#generate-cards,
+#delete-all-cards {
+  margin-right: 10px;
+}
+
+#delete-all-cards{
+  position: relative;
+  bottom: 60px;
+  margin-right: 50px;
+  z-index: 1000;
+  background-color: red;
+}
 
 .card-container{
   display: flex;
@@ -155,6 +172,7 @@ label {
   margin: 0;
   background-color: #1b1b1b;
   animation: slideup 1s ease forwards;
+  margin-top: 20px;
 }
 
 .footer ul {
