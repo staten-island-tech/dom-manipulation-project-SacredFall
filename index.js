@@ -3,7 +3,7 @@ const DOMselectors = {
   cardTitle: document.querySelector("#cardTitle"),
   cardDescription: document.querySelector("#cardDescription"),
   button: document.querySelector("button"),
-  container: document.querySelector("#container"),
+  container: document.querySelector("#card-container"),
 };
 
 function run() {

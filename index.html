@@ -24,21 +24,25 @@
     </span>
   </div>
 
-  
-  <div class="inputs-container">
-    <input type="text" id="bgImageUrl" placeholder="Background Image URL" />
-    <input type="text" id="cardTitle" placeholder="Card Title" />
-    <textarea id="cardDescription" placeholder="Card Description"></textarea>
-    <button>Generate Card</button>
-  </div>
 
-  <div class="card-container">
-    <div class="card-scroll">
-      <!-- your cards will be generated here -->
+  <form action="">
+    <div class="inputs-container">
+      <input type="text" id="bgImageUrl" placeholder="Background Image URL" />
+      <input type="text" id="cardTitle" placeholder="Card Title" />
+      <textarea id="cardDescription" placeholder="Card Description"></textarea>
+      <button>Generate Card</button>
     </div>
+  </form>
+  
+  <div class="card-wrapper">
+    <div id="card-container" class="card-container"></div>
   </div>
+    
 
-  <div id="container"></div> /
+
+
+
+  <div id="footer-container"></div> /
   <div class="footer">
     <ul>
       <li><a href="https://github.com/SacredFall">GitHub</a></li>
