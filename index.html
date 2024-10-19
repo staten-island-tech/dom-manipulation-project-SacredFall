@@ -14,7 +14,7 @@
 </head>
 <body>
 
-  <div class="glitch-container">
+<!--   <div class="glitch-container">
     <div class="stack" style="--stacks: 3;">
       <span style="--index: 0;">CARDGEN</span>
       <span style="--index: 1;">CARDGEN</span>
@@ -22,7 +22,7 @@
     </div>
     <span class="right">by SacredFall
     </span>
-  </div>
+  </div> -->
 
 
   <form action="">
@@ -30,7 +30,12 @@
       <input type="text" id="bgImageUrl" placeholder="Background Image URL" />
       <input type="text" id="cardTitle" placeholder="Card Title" />
       <textarea id="cardDescription" placeholder="Card Description"></textarea>
-      <button>Generate Card</button>
+      <div class="button-container">
+        <button id="generate-cards">Generate Cards</button>
+        <button id="delete-all-cards">
+          <i class="fas fa-trash"></i>
+        </button>
+      </div>
     </div>
   </form>
   
@@ -38,7 +43,7 @@
     <div id="card-container" class="card-container"></div>
   </div>
     
-  <button id="delete-all-cards">Delete All Cards</button>
+
 
 
 
@@ -47,6 +52,15 @@
   <div class="footer">
     <ul>
       <li><a href="https://github.com/SacredFall">GitHub</a></li>
+      <div class="glitch-container">
+        <div class="stack" style="--stacks: 3;">
+          <span style="--index: 0;">CARDGEN</span>
+          <span style="--index: 1;">CARDGEN</span>
+          <span style="--index: 2;">CARDGEN</span>
+        </div>
+        <span class="right">by SacredFall
+        </span>
+      </div>
       <li><a href="https://www.linkedin.com/in/sacredfall/">LinkedIn</a></li>
     </ul>
 

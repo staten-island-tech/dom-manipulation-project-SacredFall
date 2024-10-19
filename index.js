@@ -20,13 +20,16 @@ function addcard() {
   const cardDescription = DOMselectors.cardDescription.value;
   DOMselectors.container.insertAdjacentHTML(
     "beforeend",
-    `<div class='card'><h1>${cardTitle}</h1><p>${cardDescription}</p><img src="${bgImage}"></div>`
+    `<div class='card'><button class='delete-button'></button><h1>${cardTitle}</h1><p>${cardDescription}</p><img src="${bgImage}"></div>`
   );
 }
 
-function clearInputFields() {
-  // clear the input fields here
-}
+DOMselectors.container.addEventListener("click", (event) => {
+  if (event.target.classList.contains("delete-button")) {
+    // Remove the card element
+    event.target.parentNode.remove();
+  }
+});
 
 const deleteAllCardsButton = document.getElementById("delete-all-cards");
 deleteAllCardsButton.addEventListener("click", (event) => {
