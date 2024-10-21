@@ -26,7 +26,6 @@ function addcard() {
 
 DOMselectors.container.addEventListener("click", (event) => {
   if (event.target.classList.contains("delete-button")) {
-    // Remove the card element
     event.target.parentNode.remove();
   }
 });
@@ -38,7 +37,6 @@ deleteAllCardsButton.addEventListener("click", (event) => {
 });
 
 function deleteAllCards() {
-  // Remove all card elements from the container
   DOMselectors.container.innerHTML = "";
 }
 
